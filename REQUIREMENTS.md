@@ -1,6 +1,7 @@
 # Requirements
 
 ## Roles
+```
 Users {
     Signup
     Login
@@ -25,8 +26,10 @@ Members {
     downvote posts
     add comments
 }
+```
 
-db tables
+## db tables
+```
 user
     email (unique)
     displayname
@@ -53,7 +56,7 @@ group
         ]
     ]
 
-
+```
 routes
 - signup
 - login
